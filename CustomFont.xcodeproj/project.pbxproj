@@ -15,6 +15,21 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		B76047CC1F31B7CB00AB84A5 /* Mohave-SemiBold Italics.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Mohave-SemiBold Italics.otf"; sourceTree = "<group>"; };
+		B76047CD1F31B7CB00AB84A5 /* Mohave-Bold Italics.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Mohave-Bold Italics.otf"; sourceTree = "<group>"; };
+		B76047CE1F31B7CB00AB84A5 /* Mohave.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Mohave.otf; sourceTree = "<group>"; };
+		B76047CF1F31B7CB00AB84A5 /* Mohave Italics.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Mohave Italics.otf"; sourceTree = "<group>"; };
+		B76047D01F31B7CB00AB84A5 /* Mohave-Bold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Mohave-Bold.otf"; sourceTree = "<group>"; };
+		B76047D11F31B7CB00AB84A5 /* Mohave-SemiBold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Mohave-SemiBold.otf"; sourceTree = "<group>"; };
+		B76047D21F31B7D400AB84A5 /* Hallo sans.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Hallo sans.otf"; sourceTree = "<group>"; };
+		B76047D31F31B7D400AB84A5 /* Hallo sans light.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Hallo sans light.otf"; sourceTree = "<group>"; };
+		B76047D41F31B7D400AB84A5 /* Hallo sans black.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Hallo sans black.otf"; sourceTree = "<group>"; };
+		B76047D51F31B7E300AB84A5 /* Canter Outline.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Canter Outline.otf"; sourceTree = "<group>"; };
+		B76047D61F31B7E300AB84A5 /* Canter Bold 3D.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Canter Bold 3D.otf"; sourceTree = "<group>"; };
+		B76047D71F31B7E400AB84A5 /* Canter Light.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Canter Light.otf"; sourceTree = "<group>"; };
+		B76047D81F31B7E400AB84A5 /* Canter Bold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Canter Bold.otf"; sourceTree = "<group>"; };
+		B76047D91F31B7E400AB84A5 /* Canter Bold Shadow.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Canter Bold Shadow.otf"; sourceTree = "<group>"; };
+		B76047DA1F31B7E400AB84A5 /* Canter Bold Strips.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Canter Bold Strips.otf"; sourceTree = "<group>"; };
 		F4BFB3881DB5D2C90072BA92 /* CustomFont.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CustomFont.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F4BFB38B1DB5D2C90072BA92 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F4BFB38D1DB5D2C90072BA92 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -35,6 +50,28 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		B76047CB1F31B79B00AB84A5 /* Font */ = {
+			isa = PBXGroup;
+			children = (
+				B76047D61F31B7E300AB84A5 /* Canter Bold 3D.otf */,
+				B76047D91F31B7E400AB84A5 /* Canter Bold Shadow.otf */,
+				B76047DA1F31B7E400AB84A5 /* Canter Bold Strips.otf */,
+				B76047D81F31B7E400AB84A5 /* Canter Bold.otf */,
+				B76047D71F31B7E400AB84A5 /* Canter Light.otf */,
+				B76047D51F31B7E300AB84A5 /* Canter Outline.otf */,
+				B76047D41F31B7D400AB84A5 /* Hallo sans black.otf */,
+				B76047D31F31B7D400AB84A5 /* Hallo sans light.otf */,
+				B76047D21F31B7D400AB84A5 /* Hallo sans.otf */,
+				B76047CF1F31B7CB00AB84A5 /* Mohave Italics.otf */,
+				B76047CD1F31B7CB00AB84A5 /* Mohave-Bold Italics.otf */,
+				B76047D01F31B7CB00AB84A5 /* Mohave-Bold.otf */,
+				B76047CC1F31B7CB00AB84A5 /* Mohave-SemiBold Italics.otf */,
+				B76047D11F31B7CB00AB84A5 /* Mohave-SemiBold.otf */,
+				B76047CE1F31B7CB00AB84A5 /* Mohave.otf */,
+			);
+			path = Font;
+			sourceTree = "<group>";
+		};
 		F4BFB37F1DB5D2C90072BA92 = {
 			isa = PBXGroup;
 			children = (
@@ -54,6 +91,7 @@
 		F4BFB38A1DB5D2C90072BA92 /* CustomFont */ = {
 			isa = PBXGroup;
 			children = (
+				B76047CB1F31B79B00AB84A5 /* Font */,
 				F4BFB38B1DB5D2C90072BA92 /* AppDelegate.swift */,
 				F4BFB38D1DB5D2C90072BA92 /* ViewController.swift */,
 				F4BFB38F1DB5D2C90072BA92 /* Main.storyboard */,
@@ -96,6 +134,7 @@
 				TargetAttributes = {
 					F4BFB3871DB5D2C90072BA92 = {
 						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = X3563PB3YJ;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -262,6 +301,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = X3563PB3YJ;
 				INFOPLIST_FILE = CustomFont/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.appcoda.CustomFont;
@@ -274,6 +314,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = X3563PB3YJ;
 				INFOPLIST_FILE = CustomFont/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.appcoda.CustomFont;
