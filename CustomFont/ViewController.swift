@@ -16,7 +16,9 @@ class ViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+        label1.font = UIFont(name: "Mohave-Italic", size: 25.0)
+        label2.font = UIFont(name: "Hallo Sans", size: 30.0)
+        label3.font = UIFont(name: "CanterLight", size: 35.0)
     }
 
     override func didReceiveMemoryWarning() {

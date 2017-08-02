@@ -7,6 +7,21 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B76047DB1F31B9F500AB84A5 /* Canter Bold 3D.otf in Resources */ = {isa = PBXBuildFile; fileRef = B76047D61F31B7E300AB84A5 /* Canter Bold 3D.otf */; };
+		B76047DC1F31B9F500AB84A5 /* Canter Bold Shadow.otf in Resources */ = {isa = PBXBuildFile; fileRef = B76047D91F31B7E400AB84A5 /* Canter Bold Shadow.otf */; };
+		B76047DD1F31B9F500AB84A5 /* Canter Bold Strips.otf in Resources */ = {isa = PBXBuildFile; fileRef = B76047DA1F31B7E400AB84A5 /* Canter Bold Strips.otf */; };
+		B76047DE1F31B9F500AB84A5 /* Canter Bold.otf in Resources */ = {isa = PBXBuildFile; fileRef = B76047D81F31B7E400AB84A5 /* Canter Bold.otf */; };
+		B76047DF1F31B9F500AB84A5 /* Canter Light.otf in Resources */ = {isa = PBXBuildFile; fileRef = B76047D71F31B7E400AB84A5 /* Canter Light.otf */; };
+		B76047E01F31B9F500AB84A5 /* Canter Outline.otf in Resources */ = {isa = PBXBuildFile; fileRef = B76047D51F31B7E300AB84A5 /* Canter Outline.otf */; };
+		B76047E11F31B9F500AB84A5 /* Hallo sans black.otf in Resources */ = {isa = PBXBuildFile; fileRef = B76047D41F31B7D400AB84A5 /* Hallo sans black.otf */; };
+		B76047E21F31B9F500AB84A5 /* Hallo sans light.otf in Resources */ = {isa = PBXBuildFile; fileRef = B76047D31F31B7D400AB84A5 /* Hallo sans light.otf */; };
+		B76047E31F31B9F500AB84A5 /* Hallo sans.otf in Resources */ = {isa = PBXBuildFile; fileRef = B76047D21F31B7D400AB84A5 /* Hallo sans.otf */; };
+		B76047E41F31B9F500AB84A5 /* Mohave Italics.otf in Resources */ = {isa = PBXBuildFile; fileRef = B76047CF1F31B7CB00AB84A5 /* Mohave Italics.otf */; };
+		B76047E51F31B9F500AB84A5 /* Mohave-Bold Italics.otf in Resources */ = {isa = PBXBuildFile; fileRef = B76047CD1F31B7CB00AB84A5 /* Mohave-Bold Italics.otf */; };
+		B76047E61F31B9F500AB84A5 /* Mohave-Bold.otf in Resources */ = {isa = PBXBuildFile; fileRef = B76047D01F31B7CB00AB84A5 /* Mohave-Bold.otf */; };
+		B76047E71F31B9F500AB84A5 /* Mohave-SemiBold Italics.otf in Resources */ = {isa = PBXBuildFile; fileRef = B76047CC1F31B7CB00AB84A5 /* Mohave-SemiBold Italics.otf */; };
+		B76047E81F31B9F500AB84A5 /* Mohave-SemiBold.otf in Resources */ = {isa = PBXBuildFile; fileRef = B76047D11F31B7CB00AB84A5 /* Mohave-SemiBold.otf */; };
+		B76047E91F31B9F500AB84A5 /* Mohave.otf in Resources */ = {isa = PBXBuildFile; fileRef = B76047CE1F31B7CB00AB84A5 /* Mohave.otf */; };
 		F4BFB38C1DB5D2C90072BA92 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4BFB38B1DB5D2C90072BA92 /* AppDelegate.swift */; };
 		F4BFB38E1DB5D2C90072BA92 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4BFB38D1DB5D2C90072BA92 /* ViewController.swift */; };
 		F4BFB3911DB5D2C90072BA92 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F4BFB38F1DB5D2C90072BA92 /* Main.storyboard */; };
@@ -162,9 +177,24 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B76047DE1F31B9F500AB84A5 /* Canter Bold.otf in Resources */,
+				B76047E91F31B9F500AB84A5 /* Mohave.otf in Resources */,
+				B76047DD1F31B9F500AB84A5 /* Canter Bold Strips.otf in Resources */,
+				B76047E31F31B9F500AB84A5 /* Hallo sans.otf in Resources */,
+				B76047E01F31B9F500AB84A5 /* Canter Outline.otf in Resources */,
 				F4BFB3961DB5D2C90072BA92 /* LaunchScreen.storyboard in Resources */,
+				B76047E61F31B9F500AB84A5 /* Mohave-Bold.otf in Resources */,
 				F4BFB3931DB5D2C90072BA92 /* Assets.xcassets in Resources */,
+				B76047E71F31B9F500AB84A5 /* Mohave-SemiBold Italics.otf in Resources */,
+				B76047DF1F31B9F500AB84A5 /* Canter Light.otf in Resources */,
+				B76047DB1F31B9F500AB84A5 /* Canter Bold 3D.otf in Resources */,
+				B76047E41F31B9F500AB84A5 /* Mohave Italics.otf in Resources */,
+				B76047E11F31B9F500AB84A5 /* Hallo sans black.otf in Resources */,
+				B76047E81F31B9F500AB84A5 /* Mohave-SemiBold.otf in Resources */,
 				F4BFB3911DB5D2C90072BA92 /* Main.storyboard in Resources */,
+				B76047E21F31B9F500AB84A5 /* Hallo sans light.otf in Resources */,
+				B76047DC1F31B9F500AB84A5 /* Canter Bold Shadow.otf in Resources */,
+				B76047E51F31B9F500AB84A5 /* Mohave-Bold Italics.otf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
